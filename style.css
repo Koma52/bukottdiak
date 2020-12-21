@@ -1,0 +1,12 @@
+body{
+	background-color: gold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#text{
+	background-color: black;
+	color: white;
+	width: max-content;
+	padding-right: 5px;
+	padding-left: 5px;
+}
