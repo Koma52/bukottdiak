@@ -8,14 +8,20 @@
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="setup()">
+
+	<noscript>
+		<div id="warning">
+			<p>Kérlek engedélyezd a JavaScriptet, mert anélkül nem működik eme csodálatos oldal!</p>
+		</div>
+	</noscript>
 
 	<a onclick="audioToggle();">
 		<img src="assets/zambo.gif" alt="Megbuktam gec!">
 	</a>
 
 	<div id="text">
-		<p>Kattints a képre a jóságért!!44!!négy!! 😊</p>
+		<p id="paragraph"></p>
 	</div>
 
 </body>
